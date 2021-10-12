@@ -55,3 +55,19 @@ ul {
       text-align: center;
       padding: 10px;
   }
+  .p{
+      display: block;
+    margin:auto;
+    padding: 3px;
+    overflow: hidden;
+    background-color: white;
+    background-color: orangered;
+    float:right;
+
+    
+    
+  }
+  
+  .p:hover {
+    background-color: white;
+  }
