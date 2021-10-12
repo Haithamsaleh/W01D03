@@ -27,5 +27,31 @@ ul {
     width: 65%;
   }
   .b{
+      display: block;
       margin: auto;
+      width:100%;
+  }
+  .row{
+      display: -webkit-flex;
+      display: flex;
+  }
+  .c{
+      -webkit-flex:1;
+      -ms-flex: 1;
+      flex: 1;
+      padding: 10px;
+      overflow: auto;
+      border: 3px solid gray;
+      padding: 5px;
+  }
+  .clearfix::after{
+      content: " ";
+      clear: both;
+      display: table;
+
+  }
+  
+  .footer{
+      text-align: center;
+      padding: 10px;
   }
