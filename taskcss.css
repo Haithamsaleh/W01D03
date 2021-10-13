@@ -1,73 +1,75 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 3px;
-    overflow: hidden;
-    background-color: orangered;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
+  overflow: hidden;
+  background-color: orangered;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 3px 3px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+body {
+  margin: 0 auto;
+  width: 65%;
+}
+.b{
     display: block;
-    color: black;
+    margin: auto;
+    width:100%;
+}
+.row{
+    display: -webkit-flex;
+    display: flex;
+}
+.c{
+    -webkit-flex:1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    overflow: auto;
+    border: 3px solid gray;
+    padding: 5px;
+}
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: table;
+
+}
+
+.footer{
     text-align: center;
-    padding: 3px 3px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: white;
-  }
+    padding: 10px;
+}
+.p{
+  text-decoration: none;
+    display: block;
+  margin:auto;
+  padding: 3px;
+  overflow: hidden;
+  background-color: white;
+  background-color: orangered;
+  float:right;
+  text-decoration: none;
 
-  body {
-    margin: 0 auto;
-    width: 65%;
-  }
-  .b{
-      display: block;
-      margin: auto;
-      width:100%;
-  }
-  .row{
-      display: -webkit-flex;
-      display: flex;
-  }
-  .c{
-      -webkit-flex:1;
-      -ms-flex: 1;
-      flex: 1;
-      padding: 10px;
-      overflow: auto;
-      border: 3px solid gray;
-      padding: 5px;
-  }
-  .clearfix::after{
-      content: " ";
-      clear: both;
-      display: table;
-
-  }
   
-  .footer{
-      text-align: center;
-      padding: 10px;
-  }
-  .p{
-      display: block;
-    margin:auto;
-    padding: 3px;
-    overflow: hidden;
-    background-color: white;
-    background-color: orangered;
-    float:right;
-
-    
-    
-  }
   
-  .p:hover {
-    background-color: white;
-  }
+}
+
+.p:hover {
+  background-color: white;
+}
